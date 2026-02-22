@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Ganesha Automobile | Car Service in Nagpur</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f6ff;
+}
+
+header {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #1565c0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.button {
+    background: #0d47a1;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services, .reviews, .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery img {
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background: #0d47a1;
+    color: white;
+    padding: 20px;
+}
+
+iframe {
+    width: 90%;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+}
+
+@media(max-width:768px){
+    .services, .reviews, .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Shree Ganesha Automobile</h1>
+<p>Complete Car Care Services | Besa Chowk, Nagpur</p>
+</header>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#booking">Booking</a>
+<a href="#reviews">Reviews</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Your Trusted Car Service Center</h2>
+<p>All Car Services Available Under One Roof</p>
+<a href="tel:703030077817" class="button">Call Now</a>
+<a href="https://wa.me/917030077817" class="button">WhatsApp</a>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="services">
+<div class="box">General Car Service</div>
+<div class="box">Engine Repair</div>
+<div class="box">Oil Change</div>
+<div class="box">Brake Service</div>
+<div class="box">AC Repair</div>
+<div class="box">Battery Replacement</div>
+</div>
+</section>
+
+<section id="gallery">
+<h2>Our Work</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc">
+<img src="https://images.unsplash.com/photo-1515923162033-3d3e3e3b45d8">
+<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+</div>
+</section>
+
+<section id="booking">
+<h2>Book Appointment</h2>
+<form>
+<input type="text" placeholder="Your Name" required><br>
+<input type="tel" placeholder="Phone Number" required><br>
+<textarea placeholder="Service Required" rows="4"></textarea><br>
+<button class="button" type="submit">Submit</button>
+</form>
+</section>
+
+<section id="reviews">
+<h2>Customer Reviews</h2>
+<div class="reviews">
+<div class="box">⭐⭐⭐⭐⭐ Excellent service and fast work!</div>
+<div class="box">⭐⭐⭐⭐⭐ Trusted garage in Nagpur.</div>
+<div class="box">⭐⭐⭐⭐ Professional and affordable.</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p><strong>Location:</strong> Besa Chowk, Nagpur</p>
+<p><strong>Phone / WhatsApp:</strong> 703030077817</p>
+<p><strong>Working Hours:</strong> 10 AM – 9 PM</p>
+
+<h3>Find Us on Map</h3>
+<iframe 
+src="https://www.google.com/maps?q=Besa%20Chowk%20Nagpur&output=embed">
+</iframe>
+</section>
+
+<footer>
+<p>© 2026 Shree Ganesha Automobile | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
